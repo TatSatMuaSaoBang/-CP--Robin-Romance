@@ -79,7 +79,7 @@
 		 "AllowBlank": true,
 		 "Default": "partner",
 		 "Description": "Only works with [CP] Gender Neutrality Mod. The noun which people will use to describe your marital status. Examples: husband, wife, spouse, partner, etc."
-	}
+	},			   
   },
   "Changes": [
     {
@@ -179,7 +179,7 @@
 					"QualityModifierMode": "Stack",
 					"ModData": null,
 					"PerItemCondition": null
-					}, 
+					},
 				{
 					"Condition": null,
 					"Id": " Triple Shot Espresso",
@@ -228,7 +228,7 @@
 					"Id": "Default",
 					"Location": "LeahHouse",
 					"Tile": { "X": 13, "Y": 5 },
-				}
+				},
 				],
 			"Appearance": [
 				{
@@ -254,19 +254,7 @@
 					"IsIslandAttire": false,
 					"Precedence": -100,
 					"Weight": 0
-				},
-				{
-					"Id": "Summer",
-					"Condition": null,
-					"Season": "Summer",
-					"Indoors": true,
-					"Outdoors": true,
-					"Portrait": "Portraits/Ram_Summer",
-					"Sprite": "Characters/Ram_Summer",
-					"IsIslandAttire": false,
-					"Precedence": -100,
-					"Weight": 0
-				}			
+				}
 			]
 		  }
 		}
@@ -278,19 +266,18 @@
 		"FromFile": "Assets/Characters/Ram_Winter.png"
 	  },
 	  {
-		"LogName": "Ram Summer Assets",
+		"LogName": "Ram Winter Outdoor Portraits",
 		"Action": "Load",
-		"Target": ["Characters/Ram_Summer", "Portraits/Ram_Summer"],
-		"FromFile": ["assets/characters/Ram_Summer.png", "assets/portraits/Ram_Summer.png"]
+		"Target": "Portraits/Ram_Winter_Outdoor",
+		"FromFile": "Assets/Portraits/Ram_Winter_Outdoor.png"
 	  },
 	  {
-		"LogName": "Ram Winter Portraits",
+		"LogName": "Ram Winter Indoor Portraits",
 		"Action": "Load",
-		"Target": ["Portraits/Ram_Winter_Outdoor", "Portraits/Ram_Winter_Indoor"],
-		"FromFile": ["Assets/Portraits/Ram_Winter_Outdoor.png", "Assets/Portraits/Ram_Winter_Indoor.png"]
-	  }
-	
-/*{
+		"Target": "Portraits/Ram_Winter_Indoor",
+		"FromFile": "Assets/Portraits/Ram_Winter_Indoor.png"
+	},
+	/*{
 		"LogName": "LoadingSpouseRoom",
 		"Action": "Load",
 		"Target": "Maps/{{ModId}}_SpouseRoomRam",
