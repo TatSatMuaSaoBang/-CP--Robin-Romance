@@ -139,6 +139,12 @@
 		"Target": "Portraits/Ram_Summer",
 		"FromFile": "assets/portraits/Ram_Summer.png"
 	},
+	{
+		"LogName": "Ram Summer Sprites",
+		"Action": "Load",
+		"Target": "Characters/Ram_Summer",
+		"FromFile": "Assets/Characters/Ram_Summer.png"
+	},
     {
       "LogName": "Dialogue",
       "Action": "Load",
