@@ -115,6 +115,30 @@
       "Target": "Portraits/Ram",
       "FromFile": "assets/portraits/Ram.png",
     },
+	{
+		"LogName": "Ram Winter Sprites",
+		"Action": "Load",
+		"Target": "Characters/Ram_Winter",
+		"FromFile": "Assets/Characters/Ram_Winter.png"
+	},
+	{
+		"LogName": "Ram Winter Outdoor Portraits",
+		"Action": "Load",
+		"Target": "Portraits/Ram_Winter_Outdoor",
+		"FromFile": "Assets/Portraits/Ram_Winter_Outdoor.png"
+	},
+	{
+		"LogName": "Ram Winter Indoor Portraits",
+		"Action": "Load",
+		"Target": "Portraits/Ram_Winter_Indoor",
+		"FromFile": "Assets/Portraits/Ram_Winter_Indoor.png"
+	},
+	{
+		"LogName": "Portraits",
+		"Action": "Load",
+		"Target": "Portraits/Ram_Summer",
+		"FromFile": "assets/portraits/Ram_Summer.png"
+	},
     {
       "LogName": "Dialogue",
       "Action": "Load",
@@ -254,29 +278,21 @@
 					"IsIslandAttire": false,
 					"Precedence": -100,
 					"Weight": 0
+				},
+				{
+					"Id": "Summer",
+					"Condition": null,
+					"Season": "Summer",
+					"Portrait": "Portraits/Ram_Summer",
+					"Sprite": "Characters/Ram_Summer",
+					"IsIslandAttire": false,
+					"Precedence": -100,
+					"Weight": 0
 				}
 			]
 		  }
 		}
 	  },
-	  {
-		"LogName": "Ram Winter Sprites",
-		"Action": "Load",
-		"Target": "Characters/Ram_Winter",
-		"FromFile": "Assets/Characters/Ram_Winter.png"
-	  },
-	  {
-		"LogName": "Ram Winter Outdoor Portraits",
-		"Action": "Load",
-		"Target": "Portraits/Ram_Winter_Outdoor",
-		"FromFile": "Assets/Portraits/Ram_Winter_Outdoor.png"
-	  },
-	  {
-		"LogName": "Ram Winter Indoor Portraits",
-		"Action": "Load",
-		"Target": "Portraits/Ram_Winter_Indoor",
-		"FromFile": "Assets/Portraits/Ram_Winter_Indoor.png"
-	},
 	/*{
 		"LogName": "LoadingSpouseRoom",
 		"Action": "Load",
