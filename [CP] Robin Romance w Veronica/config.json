@@ -5,7 +5,7 @@
   "EnableRRomanceAdditionalDialogue": "true",
   "DisableOnlyFamily": "false",
   "DisableOnlyNonFamily": "false",
-  "EnableVeronica": "false",
+  "EnableVeronica": "true",
   "EnableExpandedSupport": "true",
   "14HeartFix": "true",
   "EnableRandomMeme": "false",
