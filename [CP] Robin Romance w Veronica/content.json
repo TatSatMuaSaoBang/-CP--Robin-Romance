@@ -179,7 +179,7 @@
 					"QualityModifierMode": "Stack",
 					"ModData": null,
 					"PerItemCondition": null
-					},
+					}, 
 				{
 					"Condition": null,
 					"Id": " Triple Shot Espresso",
@@ -254,6 +254,18 @@
 					"IsIslandAttire": false,
 					"Precedence": -100,
 					"Weight": 0
+				},
+				{
+					"Id": "Summer",
+					"Condition": null,
+					"Season": "Summer",
+					"Indoors": true,
+					"Outdoors": true,
+					"Portrait": "Portraits/Ram_Summer",
+					"Sprite": "Characters/Ram_Summer",
+					"IsIslandAttire": false,
+					"Precedence": -100,
+					"Weight": 0
 				}
 			]
 		  }
@@ -264,6 +276,12 @@
 		"Action": "Load",
 		"Target": "Characters/Ram_Winter",
 		"FromFile": "Assets/Characters/Ram_Winter.png"
+	  },
+	  {
+		"LogName": "Ram Winter Sprites",
+		"Action": "Load",
+		"Target": "Characters/Ram_Summer",
+		"FromFile": "Assets/Characters/Ram_Summer.png"
 	  },
 	  {
 		"LogName": "Ram Winter Outdoor Portraits",
