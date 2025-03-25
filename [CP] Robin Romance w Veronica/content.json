@@ -79,7 +79,7 @@
 		 "AllowBlank": true,
 		 "Default": "partner",
 		 "Description": "Only works with [CP] Gender Neutrality Mod. The noun which people will use to describe your marital status. Examples: husband, wife, spouse, partner, etc."
-	},			   
+	}
   },
   "Changes": [
     {
@@ -228,7 +228,7 @@
 					"Id": "Default",
 					"Location": "LeahHouse",
 					"Tile": { "X": 13, "Y": 5 },
-				},
+				}
 				],
 			"Appearance": [
 				{
@@ -271,24 +271,25 @@
 		  }
 		}
 	  },
-	{
-	"LogName": "Ram Winter Sprites",
-	"Action": "Load",
-	"Target": "Characters/Ram_Winter",
-	"FromFile": "Assets/Characters/Ram_Winter.png"
-	},
-	{
-	"LogName": "Ram Summer Assets",
-	"Action": "Load",
-	"Target": ["Characters/Ram_Summer", "Portraits/Ram_Summer"],
-	"FromFile": ["assets/characters/Ram_Summer.png", "assets/portraits/Ram_Summer.png"]
-	},
-	{
-	"LogName": "Ram Winter Outdoor/Indoor Portraits",
-	"Action": "Load",
-	"Target": ["Portraits/Ram_Winter_Outdoor", "Portraits/Ram_Winter_Indoor"],
-	"FromFile": ["Assets/Portraits/Ram_Winter_Outdoor.png", "Assets/Portraits/Ram_Winter_Indoor.png"]
-	},
+	  {
+		"LogName": "Ram Winter Sprites",
+		"Action": "Load",
+		"Target": "Characters/Ram_Winter",
+		"FromFile": "Assets/Characters/Ram_Winter.png"
+	  },
+	  {
+		"LogName": "Ram Summer Assets",
+		"Action": "Load",
+		"Target": ["Characters/Ram_Summer", "Portraits/Ram_Summer"],
+		"FromFile": ["assets/characters/Ram_Summer.png", "assets/portraits/Ram_Summer.png"]
+	  },
+	  {
+		"LogName": "Ram Winter Portraits",
+		"Action": "Load",
+		"Target": ["Portraits/Ram_Winter_Outdoor", "Portraits/Ram_Winter_Indoor"],
+		"FromFile": ["Assets/Portraits/Ram_Winter_Outdoor.png", "Assets/Portraits/Ram_Winter_Indoor.png"]
+	  }
+	
 /*{
 		"LogName": "LoadingSpouseRoom",
 		"Action": "Load",
@@ -301,7 +302,7 @@
       "Target": "Data/NPCGiftTastes",
       "Entries": {
         "Ram": "This is for me? Wow, I absolutely love it!!/224 426 636 Book_Woodcutting/Thanks! This is really nice!/-6 -79 424 709 SkillBook_2/Um... why?/16 330/What the...? This is terrible!/2/Thank you. This might come in handy.// ",
-      }
+      },
     },
     {
 		"LogName": "Custom_Wedding_Dress",
